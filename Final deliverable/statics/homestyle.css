@@ -1,0 +1,60 @@
+body{
+    background-size: auto;
+    background-image: linear-gradient(to right bottom,#880d74,#86389c,#7858c2,#5b76e3,#0092ff);
+    background-repeat: no-repeat;
+    height: 150vh;
+    font-family: 'Comic Sans MS', cursive;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    margin: 0%;
+    margin-left: 50px;
+    display: inline;
+    float: left;
+}
+li a{
+    display: block;
+  color: hsl(0, 100%, 99%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 8px;
+  
+  letter-spacing: 6px;
+
+}
+.two{
+    letter-spacing: 5px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+
+    
+
+}
+#sss1{
+    display: flex;
+}
+input{
+    margin-left: 550px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.button_search{
+    font-size: 20px;
+    padding: 4px 8px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
